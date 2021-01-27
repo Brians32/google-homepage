@@ -1,6 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    margin-top: 1rem;
 }
 
 ul{
@@ -9,14 +18,18 @@ ul{
     padding: 0;
 }
 
-
-.left-navbar{
-  display: inline;
+a{
+    text-decoration: none;
 }
 
-#right-navbar{
+.left-navbar{
+  float: left;
+  margin-left: 1rem;
+}
+
+.right-navbar-items{
     float: right;
-    display: inline;
+    margin-right: 1rem;
 }
 
 #menu-icon{
@@ -25,7 +38,36 @@ ul{
 }
 
 #search-bar{
-    display: flex;
-    justify-content: center;
+    padding: 10rem 0 10rem 0;
     align-items: center;
+}
+
+p{
+    margin-left: 1rem;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+form > input{
+    display: block;
+}
+
+form > button{
+    display: inline-block;
+}
+
+.footer-links{
+    float: left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-links-right{
+    float: right;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
