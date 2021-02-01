@@ -9,33 +9,37 @@ body{
 }
 
 nav{
-    margin-top: 1rem;
     font-size: 12px;
 }
 
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style: none;
 }
 
 a{
     text-decoration: none;
 }
 
+
 .left-navbar{
-  float: left;
-  margin-left: 1rem;
+    display: inline-block;
+    text-align: left;
+    margin-left: 1rem;
+    vertical-align: middle;
 }
 
 .right-navbar-items{
-    float: right;
+    display: inline-block;
     margin-right: 1rem;
+    margin-left: auto;
 }
 
 #menu-icon{
-    height: 1rem;
-    width: 1rem;
+    height: 19px;
+    width: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: .55;
 }
 
 #search-bar{
@@ -43,12 +47,24 @@ a{
     flex-direction: column;
     align-items: center;
     padding: 10rem 0 10rem 0;
-    text-align: center;    
+    text-align: center;  
 }
 
-input [type=text]{
-    width: 33%;
-    border-radius: 50%;
+
+[type~="submit"]{
+    border: none;
+    background-color: #f8f9fa;
+    padding: 7px 14px 7px 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+[type~="text"]{
+    border-radius: 20px;
+    border: 1px solid #d6d8da;
+    padding: 12px 40px 12px 40px;
+    margin-bottom: 1rem;
+    background-color: #fff;
 }
 
 img{
@@ -81,6 +97,10 @@ img{
 
 #french-link{
     padding-top: 2rem;
+    margin-top: 0;
+    margin-right: 100px;
+    display: inline;
+    text-align: center;
 }
 
 .footer-links{
@@ -92,6 +112,17 @@ img{
 
 .footer-links-right{
     float: right;
+    margin-top: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
+}
+
+button{
+    color:white;
+    background-color: #4683ea;
+    font-weight: bold;
+    padding: 7px 15px 7px 15px;
+    margin-top: none;
+    border: none;
+    border-radius: 1px;
 }
