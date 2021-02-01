@@ -23,7 +23,6 @@ a{
 
 .left-navbar{
     display: inline-block;
-    text-align: left;
     margin-left: 1rem;
     vertical-align: middle;
 }
@@ -31,15 +30,21 @@ a{
 .right-navbar-items{
     display: inline-block;
     margin-right: 1rem;
-    margin-left: auto;
+    vertical-align: middle;
+    
 }
 
 #menu-icon{
+    margin-top: 30px;
     height: 19px;
     width: 19px;
     display: inline-block;
     vertical-align: middle;
     opacity: .55;
+}
+
+#right-nav{
+    text-align: right;
 }
 
 #search-bar{
@@ -48,6 +53,7 @@ a{
     align-items: center;
     padding: 10rem 0 10rem 0;
     text-align: center;  
+    margin-bottom: 0px;
 }
 
 
@@ -83,7 +89,7 @@ img{
 }
 
 #footer{
-    border-top: 2px solid rgb(206, 203, 203);
+    border-top: 1px solid rgb(206, 203, 203);
 }
 
 #search-buttons{
@@ -91,7 +97,7 @@ img{
 }
 
 #footer-container{
-    border-top: 2px solid rgb(206,203,203);
+    border-top: 1px solid rgb(206,203,203);
     background-color: rgb(243, 242, 242);
 }
 
@@ -101,6 +107,7 @@ img{
     margin-right: 100px;
     display: inline;
     text-align: center;
+    font-size: 12px;
 }
 
 .footer-links{
