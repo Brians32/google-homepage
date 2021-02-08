@@ -10,6 +10,9 @@ body{
 
 nav{
     font-size: 12px;
+    position: relative;
+    line-height: 100px;
+    
 }
 
 ul{
@@ -20,31 +23,32 @@ a{
     text-decoration: none;
 }
 
-
-.left-navbar{
-    display: inline-block;
-    margin-left: 1rem;
-    vertical-align: middle;
+#left-nav{
+    position: absolute;
+    line-height: 50px;
 }
 
-.right-navbar-items{
-    display: inline-block;
-    margin-right: 1rem;
-    vertical-align: middle;
+.left-navbar-items{
+    margin-left: 1rem;
     
 }
 
-#menu-icon{
-    margin-top: 30px;
-    height: 19px;
-    width: 19px;
-    display: inline-block;
+.right-navbar-items{
+    margin-right: 1rem;
     vertical-align: middle;
-    opacity: .55;
+}
+
+
+#menu-icon{
+    height: 18px;
+    width: 18px;
+    margin-bottom: 0;
 }
 
 #right-nav{
-    text-align: right;
+    position: absolute;
+    right: 0;
+    line-height: 50px;
 }
 
 #search-bar{
@@ -71,6 +75,12 @@ a{
     padding: 12px 40px 12px 40px;
     margin-bottom: 1rem;
     background-color: #fff;
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png);
+    background-repeat: no-repeat;
+    background-position: left 15px center;
+    box-shadow: none;
+    -webkit-appearance: none;
+    background-size: 20px;
 }
 
 img{
@@ -86,6 +96,7 @@ img{
     bottom: 0;
     background-color: rgb(243, 242, 242);
     width: 100%;
+    font-size: 14px;
 }
 
 #footer{
@@ -102,11 +113,7 @@ img{
 }
 
 #french-link{
-    padding-top: 2rem;
-    margin-top: 0;
-    margin-right: 100px;
-    display: inline;
-    text-align: center;
+    margin-top: 30px;
     font-size: 12px;
 }
 
@@ -114,7 +121,7 @@ img{
     float: left;
     margin-top: 1rem;
     margin-left: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
 }
 
 .footer-links-right{
